@@ -1,0 +1,74 @@
+body {
+    margin: 50px 40px;
+    background: #1F2937;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.innerContainer {
+    border-bottom: 2px solid #2F3E53;
+    
+}
+
+.mainTitleDiv {
+    width: 400px;
+    padding-bottom: 0;
+}
+
+#mainTitleOne {
+    font: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+
+#mainTitleTwo {
+    font: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -0.025em;
+    margin-top: 0;
+    color: #4ADF86;
+    margin-bottom: 0;
+}
+
+#subHeading {
+    width: 480px;
+    font-size: 23px;
+    font-style: normal;
+    font: 'Inter';
+    color: white;
+}
+
+#generatePasswordsButton {
+    background: #10B981;
+    padding: 10px 13px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font: 'Inter';
+    margin-bottom: 30px;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.generatedPassword {
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border: none;
+    border-radius: 5px;
+    color: #55F991;
+}
+
