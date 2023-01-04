@@ -59,7 +59,7 @@ body {
 
 #buttonContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     padding-top: 25px;
 }
 
@@ -70,5 +70,9 @@ body {
     border: none;
     border-radius: 5px;
     color: #55F991;
+}
+
+#generatedPasswordTwo {
+    margin-left: 50px;
 }
 
